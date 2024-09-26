@@ -1,0 +1,32 @@
+{
+  "identifier": "yuzhang.taiwan.adapter",
+  "version": "0.0.1",
+  "category": "translate",
+  "name": "DeepSeek Taiwan Adapter",
+  "summary": "DeepSeek Taiwan Adapter",
+  "icon": "",
+  "author": "yuzhang9804@gmail.com",
+  "homepage": "https://github.com/yuzhang9804/bob-plugin-taiwan-adapter",
+  "appcast": "https://raw.githubusercontent.com/yuzhang9804/bob-plugin-taiwan-adapter/main/appcast.json",
+  "minBobVersion": "0.5.0",
+  "options": [
+    {
+      "identifier": "apiKeys",
+      "type": "text",
+      "title": "API KEY",
+      "desc": "必填项。可以用英文逗号分割多个 API KEY 以实现额度加倍及负载均衡"
+    },
+    {
+      "identifier": "model",
+      "type": "menu",
+      "title": "模型",
+      "defaultValue": "deepseek-chat",
+      "menuValues": [
+        {
+          "title": "deepseek-chat",
+          "value": "deepseek-chat"
+        }
+      ]
+    }
+  ]
+}
