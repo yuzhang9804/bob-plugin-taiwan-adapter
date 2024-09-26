@@ -1,3 +1,5 @@
+import { langs } from './lang'
+
 const SYSTEM_PROMPT = '请将以下文本转换为符合台湾人风格的中文。请注意使用台湾常用的词汇、语法和表达方式。确保语气自然，符合台湾文化习惯。'
 
 function ensureHttpsAndNoTrailingSlash(url: string) {
@@ -96,7 +98,7 @@ function handleResponse(completion: Bob.Completion, query: Bob.TranslateQuery, r
 }
 
 export function supportLanguages(): string[] {
-  return ['zh-Hant', 'zh-Hans']
+  return langs.map(([key]) => key)
 }
 
 export function translate(query: Bob.TranslateQuery, completion: Bob.Completion) {
