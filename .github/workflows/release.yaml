@@ -62,7 +62,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           git config --global user.name 'yuzhang9804'
-          git nfig --global user.email 'yuzhang9804@gmail.com'
+          git config --global user.email 'yuzhang9804@gmail.com'
           git fetch origin main
           git checkout -b main origin/main
           git add appcast.json
