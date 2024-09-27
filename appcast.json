@@ -1,12 +1,4 @@
 {
   "identifier": "yuzhang.taiwan.adapter",
-  "versions": [
-    {
-      "version": "0.0.1",
-      "desc": "chore: update release",
-      "sha256": "411ceb52366a91948c224a8d58e1b80f9689ef1de1aedb8dcd637c9cf6658fd2",
-      "url": "https://github.com/yuzhang9804/bob-plugin-taiwan-adapter/releases/download/v0.0.1/taiwan-adapter-0.0.1.bobplugin",
-      "minBobVersion": "0.5.0"
-    }
-  ]
+  "versions": []
 }
